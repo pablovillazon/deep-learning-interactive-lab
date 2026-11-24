@@ -1,6 +1,6 @@
 # Deep Learning Interactive Lab
 
-**Versión 0.1.0** — plataforma educativa en español para comprender Deep Learning mediante modelos matemáticos, diagramas y simulaciones interactivas desde el navegador.
+**Versión 0.1.1** — plataforma educativa en español para comprender Deep Learning mediante modelos matemáticos, diagramas y simulaciones interactivas desde el navegador.
 
 ## Laboratorios incluidos
 
@@ -9,6 +9,21 @@
 - **Clase 2 — Red deep:** indicador ilustrativo de riesgo de inundación mediante una arquitectura 2–3–2–1.
 
 > **Alcance:** los modelos se configuraron manualmente para enseñar propagación hacia delante. No utilizan datos reales ni entrenamiento. En particular, el índice de inundación **no es una probabilidad** y **no es apto para decisiones de ingeniería**.
+
+## Ruta pedagógica en los laboratorios de redes neuronales
+
+Cada laboratorio de la Clase 2 incluye ocho apartados, en este orden:
+
+1. Planteamiento del problema real y definición de las variables.
+2. Arquitectura propuesta y conteo de parámetros.
+3. Fundamentación matemática y significado de pesos, sesgos y activaciones.
+4. Ejemplo numérico completamente resuelto con parámetros originales.
+5. Simulador interactivo para experimentar.
+6. Propagación hacia delante y parámetros ajustables.
+7. Interpretación de cambios, comparaciones y preguntas de reflexión.
+8. Práctica libre y código equivalente en Python.
+
+Los ejemplos resueltos conservan los parámetros iniciales para que puedan reproducirse de forma estable, mientras que las secciones de interpretación comparan los ajustes actuales.
 
 ## Requisitos
 
